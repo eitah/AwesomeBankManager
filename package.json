@@ -1,0 +1,26 @@
+{
+  "name": "bankmgr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eitah/AwesomeBankManager.git"
+  },
+  "author": "Us",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eitah/AwesomeBankManager/issues"
+  },
+  "homepage": "https://github.com/eitah/AwesomeBankManager#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
