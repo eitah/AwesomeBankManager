@@ -12,6 +12,7 @@ describe('Account', function(){
       expect(a1.name).to.equal('billybob');
       expect(a1.balance).to.equal(randomBalance);
       expect(a1).to.have.property('accountNumber');
+      expect (a1.accountNumber).to.have.length(36);
       expect(a1.deposits).to.be.length(0);
       expect(a1.withdraws).to.be.length(0);
     });
